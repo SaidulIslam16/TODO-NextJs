@@ -1,5 +1,6 @@
 
 import { FaPlus } from "react-icons/fa6";
+import TodoList from "./components/TodoList";
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
           <button className="btn btn-neutral ms-3">Add Task <FaPlus /></button>
         </div>
       </div>
-
+      <TodoList />
     </main>
   )
 }
